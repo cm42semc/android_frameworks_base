@@ -231,7 +231,7 @@ public class AudioService extends IAudioService.Stub implements OnFinished {
         5,  // STREAM_VOICE_CALL
         7,  // STREAM_SYSTEM
         7,  // STREAM_RING
-        15, // STREAM_MUSIC
+        30, // STREAM_MUSIC
         7,  // STREAM_ALARM
         7,  // STREAM_NOTIFICATION
         15, // STREAM_BLUETOOTH_SCO
@@ -497,7 +497,7 @@ public class AudioService extends IAudioService.Stub implements OnFinished {
         // The default safe volume index read here will be replaced by the actual value when
         // the mcc is read by onConfigureSafeVolume()
         mSafeMediaVolumeIndex = mContext.getResources().getInteger(
-                com.android.internal.R.integer.config_safe_media_volume_index) * 10;
+                com.android.internal.R.integer.config_safe_media_volume_index) * 20;
 
         readPersistedSettings();
         mSettingsObserver = new SettingsObserver();
