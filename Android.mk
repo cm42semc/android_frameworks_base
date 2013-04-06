@@ -108,7 +108,7 @@ LOCAL_SRC_FILES += \
 	core/java/android/app/IThumbnailRetriever.aidl \
 	core/java/android/app/ITransientNotification.aidl \
 	core/java/android/app/IUiModeManager.aidl \
-    core/java/android/app/IUserSwitchObserver.aidl \
+        core/java/android/app/IUserSwitchObserver.aidl \
 	core/java/android/app/IWallpaperManager.aidl \
 	core/java/android/app/IWallpaperManagerCallback.aidl \
 	core/java/android/app/admin/IDevicePolicyManager.aidl \
@@ -330,8 +330,6 @@ aidl_files := \
 	frameworks/base/core/java/android/app/NotificationGroup.aidl \
 	frameworks/base/core/java/android/app/Profile.aidl \
 	frameworks/base/core/java/android/app/PendingIntent.aidl \
-	frameworks/base/core/java/android/bluetooth/BluetoothDevice.aidl \
-	frameworks/base/core/java/android/bluetooth/BluetoothHealthAppConfiguration.aidl \
 	frameworks/base/core/java/android/content/ComponentName.aidl \
 	frameworks/base/core/java/android/content/Intent.aidl \
 	frameworks/base/core/java/android/content/IntentSender.aidl \
