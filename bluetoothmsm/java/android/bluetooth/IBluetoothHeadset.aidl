@@ -48,12 +48,7 @@ interface IBluetoothHeadset {
     boolean disconnectHeadsetInternal(in BluetoothDevice device);
     boolean setAudioState(in BluetoothDevice device, int state);
     int getAudioState(in BluetoothDevice device);
-    boolean isAudioOn();
-    boolean connectAudio();
-    boolean disconnectAudio();
-    void phoneStateChanged(int numActive, int numHeld, int callState, String number, int type);
-    void roamChanged(boolean roam);
-    void clccResponse(int index, int direction, int status, int mode, boolean mpty, String number, int type);
+
     boolean startScoUsingVirtualVoiceCall(in BluetoothDevice device);
     boolean stopScoUsingVirtualVoiceCall(in BluetoothDevice device);
 }

@@ -5316,6 +5316,14 @@ public final class Settings {
         public static final String BLUETOOTH_ON = "bluetooth_on";
 
         /**
+         * Get the key that retrieves a bluetooth headset's priority.
+         * @hide
+         */
+        public static final String getBluetoothHeadsetPriorityKey(String address) {
+            return ("bluetooth_headset_priority_" + address.toUpperCase());
+        }
+
+        /**
          * CDMA Cell Broadcast SMS
          *                            0 = CDMA Cell Broadcast SMS disabled
          *                            1 = CDMA Cell Broadcast SMS enabled
@@ -6189,13 +6197,13 @@ public final class Settings {
         public static final String
                 BLUETOOTH_INPUT_DEVICE_PRIORITY_PREFIX = "bluetooth_input_device_priority_";
 
-        /**
-         * Get the key that retrieves a bluetooth headset's priority.
-         * @hide
-         */
-        public static final String getBluetoothHeadsetPriorityKey(String address) {
-            return BLUETOOTH_HEADSET_PRIORITY_PREFIX + address.toUpperCase();
-        }
+//      /**
+//       * Get the key that retrieves a bluetooth headset's priority.
+//       * @hide
+//       */
+//      public static final String getBluetoothHeadsetPriorityKey(String address) {
+//          return BLUETOOTH_HEADSET_PRIORITY_PREFIX + address.toUpperCase();
+//      }
 
         /**
          * Get the key that retrieves a bluetooth a2dp sink's priority.
