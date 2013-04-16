@@ -262,7 +262,6 @@ LOCAL_SRC_FILES += \
 	bluetoothmsm/java/android/bluetooth/IBluetoothA2dp.aidl \
 	bluetoothmsm/java/android/bluetooth/IBluetoothCallback.aidl \
 	bluetoothmsm/java/android/bluetooth/IBluetoothHeadset.aidl \
-	bluetoothmsm/java/android/bluetooth/IBluetoothHeadsetPhone.aidl \
 	bluetoothmsm/java/android/bluetooth/IBluetoothHealthCallback.aidl \
 	bluetoothmsm/java/android/bluetooth/IBluetoothManager.aidl \
 	bluetoothmsm/java/android/bluetooth/IBluetoothPbap.aidl \
